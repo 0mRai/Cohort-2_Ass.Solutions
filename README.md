@@ -1,1 +1,1 @@
-##Solutions of assignments in the ongoing cohort 2.0
+## Solutions of assignments in the ongoing cohort 2.0
