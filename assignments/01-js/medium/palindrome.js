@@ -4,6 +4,18 @@
 */
 
 function isPalindrome(str) {
+  let arr=str.split(" ").join("").toUpperCase();  
+  for(let i=0; i<arr.length/2; i++)
+  {
+    // if(arr.charAt(i)=="."||arr.charAt(i)==","||arr.charAt(i)=="!"||arr.charAt(i)=="?"||arr.charAt(arr.length-1-i)=="."||arr.charAt(arr.length-1-i)==","||arr.charAt(arr.length-1-i)=="!"||arr.charAt(arr.length-1-i)=="?")
+    // {
+    //   continue;
+    // }
+    if(arr[i]!=arr[arr.length-1-i])
+    {
+       return false;
+    }
+  }
   return true;
 }
 
